@@ -6,6 +6,13 @@ message to get the original message. ...
 The encryption and decryption steps are the same.
 '''
 
+'''
+The major drawback of reverse cipher is that it is very weak. 
+A hacker can easily break the cipher text to get the 
+original message. Hence, reverse cipher is not considered 
+as good option to maintain secure communication channel,.
+'''
+
 message = "Three can keep a secret, if two of them are dead."
 rc_message = ''
 
